@@ -1,0 +1,210 @@
+Protótipo do J&H Virtual Bank
+1. Tela de Boas-Vindas
+Descrição: Tela inicial que apresenta o logotipo do J&H Virtual Bank e uma breve mensagem de boas-vindas.
+
+Elementos:
+
+Logotipo centralizado.
+
+Botão "Cadastre-se" e "Entrar".
+
+Link para "Saiba mais sobre o J&H Virtual Bank".
+
+2. Tela de Cadastro
+Descrição: Permite ao usuário criar uma nova conta.
+
+Elementos:
+
+Campos para inserir: Nome completo, e-mail, número de telefone, senha.
+
+Botão "Próximo".
+
+Link para "Já tem uma conta? Entrar".
+
+Checkbox para aceitar os termos e condições.
+
+3. Tela de Verificação OTP
+Descrição: Após o cadastro, o usuário recebe um código OTP para verificar o número de telefone.
+
+Elementos:
+
+Campo para inserir o código OTP.
+
+Botão "Verificar".
+
+Link para "Reenviar código".
+
+4. Tela de Login
+Descrição: Permite ao usuário acessar a conta.
+
+Elementos:
+
+Campos para e-mail/telefone e senha.
+
+Botão "Entrar".
+
+Link para "Esqueceu a senha?".
+
+Opção de autenticação de dois fatores (2FA).
+
+5. Dashboard (Tela Principal)
+Descrição: Visão geral da conta do usuário.
+
+Elementos:
+
+Saldo atual destacado.
+
+Botões rápidos: "Depositar", "Transferir", "Pagar Contas", "Cartões".
+
+Últimas transações recentes.
+
+Menu inferior com ícones: Início, Carteira, Pagamentos, Perfil.
+
+6. Tela de Depósito
+Descrição: Permite ao usuário adicionar fundos à carteira.
+
+Elementos:
+
+Opções de depósito: Cartão de crédito/débito, transferência bancária, vouchers.
+
+Campo para inserir valor.
+
+Botão "Confirmar Depósito".
+
+7. Tela de Transferência
+Descrição: Permite ao usuário transferir dinheiro para outros usuários ou contas bancárias.
+
+Elementos:
+
+Campos para: Número da conta ou e-mail do destinatário, valor, descrição.
+
+Botão "Transferir".
+
+Histórico de transferências recentes.
+
+8. Tela de Pagamento de Contas
+Descrição: Permite ao usuário pagar contas de serviços como água, luz, internet, etc.
+
+Elementos:
+
+Lista de serviços disponíveis.
+
+Campos para: Número da conta, valor.
+
+Botão "Pagar".
+
+9. Tela de Cartões Virtuais
+Descrição: Permite ao usuário gerenciar cartões virtuais.
+
+Elementos:
+
+Lista de cartões virtuais ativos.
+
+Botão "Gerar Novo Cartão".
+
+Opções para cada cartão: Recarregar, Bloquear, Detalhes.
+
+10. Tela de Histórico de Transações
+Descrição: Exibe todas as transações realizadas pelo usuário.
+
+Elementos:
+
+Lista de transações com detalhes: Data, valor, tipo (depósito, transferência, pagamento).
+
+Filtros por período ou tipo de transação.
+
+11. Tela de Perfil do Usuário
+Descrição: Permite ao usuário gerenciar suas informações pessoais e configurações.
+
+Elementos:
+
+Foto de perfil.
+
+Campos para editar: Nome, e-mail, telefone, senha.
+
+Botão "Salvar Alterações".
+
+Seção de segurança: Ativar/desativar 2FA.
+
+12. Tela de Suporte ao Cliente
+Descrição: Oferece suporte via chatbot e opções de contato.
+
+Elementos:
+
+Chatbot integrado.
+
+Opções de contato: E-mail, telefone.
+
+Perguntas frequentes (FAQ).
+
+Wireframes (Esboços)
+Aqui está uma descrição visual simplificada das telas:
+
+Tela de Boas-Vindas:
+
+Copy
+--------------------------
+|       [Logo]          |
+|  Bem-vindo ao J&H!    |
+| [Cadastre-se] [Entrar]|
+--------------------------
+Tela de Cadastro:
+
+Copy
+--------------------------
+| Nome: _______________ |
+| E-mail: _____________ |
+| Telefone: __________  |
+| Senha: _____________  |
+| [Próximo]             |
+--------------------------
+Dashboard:
+
+Copy
+--------------------------
+| Saldo: R$ 1.000,00    |
+| [Depositar] [Transferir]|
+| [Pagar Contas] [Cartões]|
+| Últimas Transações:    |
+| - Depósito: R$ 500,00  |
+| - Transferência: R$ 200|
+--------------------------
+Tela de Transferência:
+
+Copy
+--------------------------
+| Destinatário: _______  |
+| Valor: ______________  |
+| Descrição: _________   |
+| [Transferir]           |
+--------------------------
+Tela de Perfil:
+
+Copy
+--------------------------
+| [Foto]                |
+| Nome: _______________ |
+| E-mail: _____________ |
+| Telefone: __________  |
+| [Salvar Alterações]   |
+--------------------------
+Próximos Passos
+Ferramentas para Prototipagem:
+
+Use ferramentas como Figma, Adobe XD ou Sketch para criar wireframes interativos.
+
+Adicione transições e animações para simular a experiência do usuário.
+
+Validação:
+
+Teste o protótipo com potenciais usuários para coletar feedback.
+
+Ajuste o design com base nas necessidades e preferências dos usuários.
+
+Desenvolvimento:
+
+Comece a codificar o frontend usando Flutter ou React Native.
+
+Integre as APIs necessárias para funcionalidades como pagamentos e autenticação.
+
+Se precisar de mais detalhes ou ajuda com alguma parte específica, é só pedir! 
